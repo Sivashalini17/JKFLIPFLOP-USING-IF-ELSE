@@ -1,5 +1,5 @@
-# JKFLIPFLOP-USING-IF-ELSE
-
+# experiment 7 : JKFLIPFLOP-USING-IF-ELSE
+DATE :22/11/24
 **AIM:** 
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
@@ -34,15 +34,62 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
-
 **PROGRAM**
+```
+module JKFLIPFLOP(q, qb,j,k,clock, reset);
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+Input 1,k, clock, reset;
+
+output reg q, b
+
+always (posedge (clock))
+
+begin
+
+if (Ireset)
+
+begin
+
+end
+
+else
+
+begin
+
+1f(306)
+
+end
+
+end
+
+begin
+
+qbc-qb;
+
+end
+
+else if(jisk)
+
+begin
+
+90-31
+
+end
+
+else if(3-1 && k-1)
+
+begin
+
+end
+
+endsodule
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
+![image](https://github.com/user-attachments/assets/327833a5-cfeb-4dc6-998d-7c700771203a)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![image](https://github.com/user-attachments/assets/96551793-3e32-4d0b-b4d5-d2f0b3450ab8)
 
 **RESULTS**
+Therefore the code is successfully excecuted.
